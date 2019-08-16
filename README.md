@@ -2,6 +2,8 @@
 Simple telegram bot written in PHP
 ## Usage
 
+Create a [bot](https://core.telegram.org/bots#6-botfather) and set `bot.php` as [webhook](https://core.telegram.org/bots/webhooks)
+
 Create the file `credentials.php` and fill in the fields
 
 ```php
@@ -11,3 +13,4 @@ Create the file `credentials.php` and fill in the fields
     $api_url = ""; 
     $api_key = "";
 ?>
+```
